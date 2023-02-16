@@ -1,2 +1,2 @@
 #!/bin/bash
-cut \*\\'"Best School"\'\\*$\?\*\*\*\*\*:\) > echo"Best School \n"
+echo -e "\\*\\\\'"Best School"\\'\\\\*$\\?\\*\\*\\*\\*:\\)" > "Best School \n"

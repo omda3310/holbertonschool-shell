@@ -1,2 +1,2 @@
 #!/bin/bash
-grep ^[[:alpha:]].* /etc/passwd | cut -d: /etc/passwd | sort -k 2
+cut -d: -f 1,6 /etc/passwd | sort | column

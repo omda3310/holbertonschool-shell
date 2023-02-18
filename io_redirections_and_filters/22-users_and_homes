@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d: /etc/passwd | sort -k 2
+cut -d: /etc/passwd | sort -k 2 |  grdp ^[[:alpha:]]
